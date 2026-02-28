@@ -94,3 +94,7 @@ Continuing Run: ae325bce-d8ea-4395-98e0-ba06b52ebc61
 │          │                                                                                                                                                    │
 │          │ This is not an exhaustive list, and there are many more dishes available from different cuisines and cultures.                                     │
 ╰──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+<img width="1920" height="1020" alt="Screenshot 2026-02-28 095839" src="https://github.com/user-attachments/assets/cc7e3c86-a0fe-45d7-a15f-ed6aabd50cd4" />
+<img width="1920" height="1020" alt="Screenshot 2026-02-28 095803" src="https://github.com/user-attachments/assets/e6014071-f99e-4403-852b-b70702b8b5c3" />
+<img width="1920" height="1020" alt="Screenshot 2026-02-25 131715" src="https://github.com/user-attachments/assets/efbd115e-d477-4702-8b20-dbd427535e90" />
+
