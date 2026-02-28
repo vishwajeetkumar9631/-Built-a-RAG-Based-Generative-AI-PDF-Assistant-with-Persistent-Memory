@@ -12,3 +12,236 @@ In addition to retrieval and generation, the assistant maintains persistent conv
 Through this project, I gained hands-on experience in building end-to-end RAG pipelines, integrating vector databases with LLM APIs, working with high-speed LPU-powered inference, and deploying AI systems using containerized infrastructure. This architecture reflects how modern enterprise AI systems combine retrieval, memory, fast inference hardware, and scalable deployment practices to build intelligent and reliable knowledge assistants.
 
 I am excited to continue exploring advanced RAG systems, high-performance LLM deployments, and Agentic AI architectures to design more autonomous and scalable AI solutions.
+
+
+respose: 
+INFO     Creating collection
+INFO     Loading knowledge base
+Continuing Run: ae325bce-d8ea-4395-98e0-ba06b52ebc61
+
+ 😎 User : list out all the dishes availabe        
+╭──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Message  │ list out all the dishes availabe                                                                                                                   │
+├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Response │ I'm not able to provide a list of dishes available as I don't have access to real-time information about specific restaurants or menus. However, I │
+│ (3.1s)   │ can suggest some ways for you to find the information you're looking for.                                                                          │
+│          │                                                                                                                                                    │
+│          │ To get a list of dishes available, you can try the following options:                                                                              │
+│          │                                                                                                                                                    │
+│          │ Option 1: Check the Restaurant's Website                                                                                                           │
+│          │                                                                                                                                                    │
+│          │ You can visit the website of the restaurant you're interested in and look for their menu section. Most restaurants post their menus online,        │
+│          │ including descriptions of each dish and prices.                                                                                                    │
+│          │                                                                                                                                                    │
+│          │ Option 2: Use Online Food Delivery Platforms                                                                                                       │
+│          │                                                                                                                                                    │
+│          │ If you're looking for dishes available from restaurants that deliver, you can check online food delivery platforms such as Grubhub, Uber Eats, or  │
+│          │ DoorDash. These platforms often have menus from multiple restaurants and allow you to filter by cuisine, price, and more.                          │
+│          │                                                                                                                                                    │
+│          │ Option 3: Search for Menus on Review Websites                                                                                                      │
+│          │                                                                                                                                                    │
+│          │ Websites like Yelp or TripAdvisor often have menus posted by users or the restaurants themselves. You can search for the restaurant you're         │
+│          │ interested in and see if anyone has posted their menu.                                                                                             │
+│          │                                                                                                                                                    │
+│          │ Option 4: Call the Restaurant                                                                                                                      │
+│          │                                                                                                                                                    │
+│          │ If you're unable to find the menu online, you can try calling the restaurant directly and asking about their available dishes. This is a good      │
+│          │ option if you have specific dietary restrictions or preferences and want to confirm that the restaurant can accommodate you.                       │
+│          │                                                                                                                                                    │
+│          │  • Running: search_knowledge_base(query=popular dishes)                                                                                            │
+│          │                                                                                                                                                    │
+│          │ There are numerous dishes available from various cuisines around the world. Here are some examples:                                                │
+│          │                                                                                                                                                    │
+│          │ Appetizers                                                                                                                                         │
+│          │                                                                                                                                                    │
+│          │  • Bruschetta                                                                                                                                      │
+│          │  • Spinach and artichoke dip                                                                                                                       │
+│          │  • Potato skins                                                                                                                                    │
+│          │  • Chicken wings                                                                                                                                   │
+│          │  • Onion rings                                                                                                                                     │
+│          │                                                                                                                                                    │
+│          │ Main Courses                                                                                                                                       │
+│          │                                                                                                                                                    │
+│          │  • Pizza                                                                                                                                           │
+│          │  • Burgers                                                                                                                                         │
+│          │  • Tacos                                                                                                                                           │
+│          │  • Sushi                                                                                                                                           │
+│          │  • Steak                                                                                                                                           │
+│          │  • Fish and chips                                                                                                                                  │
+│          │  • Chicken parmesan                                                                                                                                │
+│          │  • Vegetarian lasagna                                                                                                                              │
+│          │                                                                                                                                                    │
+│          │ Desserts                                                                                                                                           │
+│          │                                                                                                                                                    │
+│          │  • Ice cream                                                                                                                                       │
+│          │  • Brownies                                                                                                                                        │
+│          │  • Cheesecake                                                                                                                                      │
+│          │  • Chocolate cake                                                                                                                                  │
+│          │  • Fruit salad                                                                                                                                     │
+│          │  • Tiramisu                                                                                                                                        │
+│          │                                                                                                                                                    │
+│          │ International Dishes                                                                                                                               │
+│          │                                                                                                                                                    │
+│          │  • Chinese: Kung pao chicken, beef with broccoli, fried rice                                                                                       │
+│          │  • Italian: Spaghetti bolognese, fettuccine alfredo, chicken parmesan                                                                              │
+│          │  • Mexican: Tacos, burritos, quesadillas                                                                                                           │
+│          │  • Indian: Chicken tikka masala, palak paneer, naan bread                                                                                          │
+│          │  • Japanese: Sushi, ramen, tempura                                                                                                                 │
+│          │  • Korean: Bibimbap, bulgogi, kimchi stew                                                                                                          │
+│          │                                                                                                                                                    │
+│          │ This is not an exhaustive list, and there are many more dishes available from different cuisines and cultures.                                     │
+╰──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ 😎 User : table all the dishes available 
+╭──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Message  │ table all the dishes available                                                                                                                     │
+├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Response │ Available Dishes                                                                                                                                   │
+│ (2.2s)   │                                                                                                                                                    │
+│          │ To provide you with a list of available dishes, I would need to search the knowledge base. However, without a specific query, I can suggest a      │
+│          │ general search.                                                                                                                                    │
+│          │                                                                                                                                                    │
+│          │  • Running: search_knowledge_base(query=available dishes at a restaurant)                                                                          │
+│          │                                                                                                                                                    │
+│          │ Unfortunately, I couldn't find any specific information about the dishes available at a particular restaurant. However, I can provide some general │
+│          │ information about popular dishes that are commonly found in restaurants.                                                                           │
+│          │                                                                                                                                                    │
+│          │ Popular Dishes                                                                                                                                     │
+│          │                                                                                                                                                    │
+│          │ Some popular dishes that are commonly found in restaurants include:                                                                                │
+│          │                                                                                                                                                    │
+│          │  • Appetizers:                                                                                                                                     │
+│          │     • Salads                                                                                                                                       │
+│          │     • Soups                                                                                                                                        │
+│          │     • Fried calamari                                                                                                                               │
+│          │     • Bruschetta                                                                                                                                   │
+│          │  • Entrees:                                                                                                                                        │
+│          │     • Pasta dishes                                                                                                                                 │
+│          │     • Burgers                                                                                                                                      │
+│          │     • Grilled meats                                                                                                                                │
+│          │     • Seafood                                                                                                                                      │
+│          │  • Sides:                                                                                                                                          │
+│          │     • Mashed potatoes                                                                                                                              │
+│          │     • Roasted vegetables                                                                                                                           │
+│          │     • Garlic bread                                                                                                                                 │
+│          │     • Fries                                                                                                                                        │
+│          │  • Desserts:                                                                                                                                       │
+│          │     • Ice cream                                                                                                                                    │
+│          │     • Cheesecake                                                                                                                                   │
+│          │     • Chocolate cake                                                                                                                               │
+│          │     • Fruit salad                                                                                                                                  │
+│          │                                                                                                                                                    │
+│          │ International Dishes                                                                                                                               │
+│          │                                                                                                                                                    │
+│          │ Additionally, many restaurants serve international dishes, such as:                                                                                │
+│          │                                                                                                                                                    │
+│          │  • Italian:                                                                                                                                        │
+│          │     • Pizza                                                                                                                                        │
+│          │     • Spaghetti                                                                                                                                    │
+│          │     • Lasagna                                                                                                                                      │
+│          │     • Fettuccine Alfredo                                                                                                                           │
+│          │  • Chinese:                                                                                                                                        │
+│          │     • Dumplings                                                                                                                                    │
+│          │     • Wonton soup                                                                                                                                  │
+│          │     • Fried rice                                                                                                                                   │
+│          │     • Lo mein                                                                                                                                      │
+│          │  • Mexican:                                                                                                                                        │
+│          │     • Tacos                                                                                                                                        │
+│          │     • Burritos                                                                                                                                     │
+│          │     • Quesadillas                                                                                                                                  │
+│          │     • Nachos                                                                                                                                       │
+│          │  • Indian:                                                                                                                                         │
+│          │     • Curry                                                                                                                                        │
+│          │     • Tandoori chicken                                                                                                                             │
+│          │     • Naan bread                                                                                                                                   │
+│          │     • Basmati rice These are just a few examples of the many dishes that are commonly found in restaurants. The specific dishes available will     │
+│          │       vary depending on the restaurant and its cuisine.                                                                                            │
+╰──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ 😎 User : chicken dishes
+╭──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Message  │ chicken dishes                                                                                                                                     │
+├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Response │ Chicken Dishes                                                                                                                                     │
+│ (2.3s)   │                                                                                                                                                    │
+│          │ There are numerous delicious chicken dishes from around the world. Here are a few popular ones:                                                    │
+│          │                                                                                                                                                    │
+│          │  • Chicken Parmesan: a classic Italian-American dish made with breaded and fried chicken topped with marinara sauce and melted mozzarella cheese.  │
+│          │  • Chicken Tikka Masala: a popular Indian-inspired dish made with marinated chicken cooked in a creamy tomato sauce.                               │
+│          │  • Chicken Fajitas: a spicy Mexican dish made with sautéed chicken, bell peppers, and onions, served with warm flour or corn tortillas.            │
+│          │  • Chicken Souvlaki: a Greek dish made with grilled chicken skewers, often served with a side of tangy tzatziki sauce.                             │
+│          │  • Chicken Cacciatore: a hearty Italian dish made with hunter-style chicken, onions, bell peppers, and mushrooms, in a rich tomato sauce.          │
+│          │                                                                                                                                                    │
+│          │  • Running: search_knowledge_base(query=chicken recipes)                                                                                           │
+│          │                                                                                                                                                    │
+│          │ Chicken Dishes                                                                                                                                     │
+│          │                                                                                                                                                    │
+│          │ There are many delicious chicken dishes to try. Some popular options include:                                                                      │
+│          │                                                                                                                                                    │
+│          │  • Chicken Parmesan: breaded and fried chicken topped with marinara sauce and melted mozzarella cheese                                             │
+│          │  • Chicken Fajitas: sizzling chicken and vegetables served with warm flour or corn tortillas                                                       │
+│          │  • Chicken Tikka Masala: marinated chicken in a creamy tomato sauce, often served with basmati rice and naan bread                                 │
+│          │  • Chicken Souvlaki: grilled chicken skewers, typically served with a side of tangy tzatziki sauce                                                 │
+│          │  • Chicken Cacciatore: a hearty hunter-style dish featuring chicken, onions, bell peppers, and mushrooms in a rich tomato sauce                    │
+│          │                                                                                                                                                    │
+│          │ These are just a few examples of the many amazing chicken dishes out there. Whether you're in the mood for something spicy, savory, or comforting, │
+│          │ there's a chicken dish to suit your taste.                                                                                                         │
+╰──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ 😎 User : ingridient for the chicken fajitas
+
+╭──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Message  │ ingridient for the chicken fajitas                                                                                                                 │
+├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Response │ Ingredients for Chicken Fajitas                                                                                                                    │
+│ (2.2s)   │                                                                                                                                                    │
+│          │ To make delicious chicken fajitas, you will need the following ingredients:                                                                        │
+│          │                                                                                                                                                    │
+│          │  • 1 pound boneless, skinless chicken breasts, cut into thin strips                                                                                │
+│          │  • 1/2 cup lime juice                                                                                                                              │
+│          │  • 2 cloves garlic, minced                                                                                                                         │
+│          │  • 1 teaspoon dried oregano                                                                                                                        │
+│          │  • 1/2 teaspoon ground cumin                                                                                                                       │
+│          │  • 1/4 teaspoon cayenne pepper (optional)                                                                                                          │
+│          │  • 1 large onion, sliced                                                                                                                           │
+│          │  • 2 large bell peppers (any color), sliced                                                                                                        │
+│          │  • 8 small flour tortillas                                                                                                                         │
+│          │  • Salt and pepper, to taste                                                                                                                       │
+│          │  • Vegetable oil, for cooking                                                                                                                      │
+│          │  • Optional toppings: avocado, sour cream, shredded cheese, cilantro, salsa                                                                        │
+│          │                                                                                                                                                    │
+│          │  • Running: search_knowledge_base(query=chicken fajitas recipe)                                                                                    │
+│          │                                                                                                                                                    │
+│          │ To make delicious chicken fajitas, you'll need the following ingredients:                                                                          │
+│          │                                                                                                                                                    │
+│          │ For the chicken:                                                                                                                                   │
+│          │                                                                                                                                                    │
+│          │  • 1 pound boneless, skinless chicken breasts, cut into thin strips                                                                                │
+│          │  • 1/2 cup lime juice                                                                                                                              │
+│          │  • 1/4 cup olive oil                                                                                                                               │
+│          │  • 2 cloves garlic, minced                                                                                                                         │
+│          │  • 1 teaspoon dried oregano                                                                                                                        │
+│          │  • 1/2 teaspoon ground cumin                                                                                                                       │
+│          │  • 1/4 teaspoon cayenne pepper (optional)                                                                                                          │
+│          │  • Salt and pepper, to taste                                                                                                                       │
+│          │                                                                                                                                                    │
+│          │ For the vegetables:                                                                                                                                │
+│          │                                                                                                                                                    │
+│          │  • 1 large onion, sliced                                                                                                                           │
+│          │  • 2 large bell peppers (any color), sliced                                                                                                        │
+│          │  • 2 large tomatoes, diced                                                                                                                         │
+│          │  • 2 cloves garlic, minced                                                                                                                         │
+│          │  • 1 jalapeño pepper, sliced                                                                                                                       │
+│          │  • 1 tablespoon olive oil                                                                                                                          │
+│          │  • Salt and pepper, to taste                                                                                                                       │
+│          │                                                                                                                                                    │
+│          │ For the fajitas:                                                                                                                                   │
+│          │                                                                                                                                                    │
+│          │  • 8 small flour tortillas                                                                                                                         │
+│          │  • Optional toppings: avocado, sour cream, shredded cheese, cilantro, salsa                                                                        │
+│          │                                                                                                                                                    │
+│          │ For serving:                                                                                                                                       │
+│          │                                                                                                                                                    │
+│          │  • Warm flour tortillas                                                                                                                            │
+│          │  • Optional sides: Mexican rice, refried beans, roasted vegetables                                                                                 │
+│          │                                                                                                                                                    │
+│          │ These ingredients will help you create a flavorful and spicy chicken fajita dish that's perfect for any occasion. Enjoy!                           │
+╰──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ 😎 User :
